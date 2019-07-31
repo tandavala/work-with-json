@@ -4,11 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
     <title>Json tuto</title>
+    <link
+      href="http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        background-color: #fff;
+        color: #555;
+        font-family: "Lato", "Arial", sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        text-rendering: optimizeLegibility;
+        overflow-x: hidden;
+      }
+      .container {
+        width: 50%;
+        margin: 50px auto;
+        background-color: aquamarine;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+      }
+      ul {
+        list-style: none;
+      }
+      ul li {
+        text-transform: capitalize;
+        margin-top: 20px;
+      }
+    </style>
   </head>
   <body>
-    <ul id="fill"></ul>
-
+    <div class="container">
+      <h2>Hello JSON</h2>
+      <hr />
+      <ul id="fill">
+        <ul id="inner"></ul>
+      </ul>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>

@@ -1,0 +1,247 @@
+[
+  {
+    "status": "success",
+    "data": {
+      "id": 1,
+      "name": "jose tandavala",
+      "username": "tandavala",
+      "email": "jose.tandavala@gmail.com",
+      "location": "Benguela",
+      "website_url": null,
+      "bio": "I am a software developer",
+      "created_at": "2019-07-31 06:44:22",
+      "updated_at": "2019-07-31 06:45:15",
+      "tweets": [
+        {
+          "id": 1,
+          "user_id": 1,
+          "tweet": "My frst twitter",
+          "created_at": "2019-07-31 06:44:38",
+          "updated_at": "2019-07-31 06:44:38",
+          "user": {
+            "id": 1,
+            "name": "jose tandavala",
+            "username": "tandavala",
+            "email": "jose.tandavala@gmail.com",
+            "location": "Benguela",
+            "website_url": null,
+            "bio": "I am a software developer",
+            "created_at": "2019-07-31 06:44:22",
+            "updated_at": "2019-07-31 06:45:15"
+          },
+          "favorites": [
+            {
+              "id": 1,
+              "user_id": 1,
+              "tweet_id": 1,
+              "created_at": "2019-07-31 06:44:41",
+              "updated_at": "2019-07-31 06:44:41"
+            },
+            {
+              "id": 3,
+              "user_id": 2,
+              "tweet_id": 1,
+              "created_at": "2019-07-31 06:59:41",
+              "updated_at": "2019-07-31 06:59:41"
+            }
+          ],
+          "replies": [
+            {
+              "id": 1,
+              "user_id": 2,
+              "tweet_id": 1,
+              "reply": "este e um tweet do tanda",
+              "created_at": "2019-07-31 06:59:31",
+              "updated_at": "2019-07-31 06:59:31"
+            }
+          ]
+        }
+      ],
+      "following": [],
+      "followers": [],
+      "favorites": [
+        {
+          "id": 1,
+          "user_id": 1,
+          "tweet_id": 1,
+          "created_at": "2019-07-31 06:44:41",
+          "updated_at": "2019-07-31 06:44:41",
+          "tweet": {
+            "id": 1,
+            "user_id": 1,
+            "tweet": "My frst twitter",
+            "created_at": "2019-07-31 06:44:38",
+            "updated_at": "2019-07-31 06:44:38",
+            "user": {
+              "id": 1,
+              "name": "jose tandavala",
+              "username": "tandavala",
+              "email": "jose.tandavala@gmail.com",
+              "location": "Benguela",
+              "website_url": null,
+              "bio": "I am a software developer",
+              "created_at": "2019-07-31 06:44:22",
+              "updated_at": "2019-07-31 06:45:15"
+            },
+            "favorites": [
+              {
+                "id": 1,
+                "user_id": 1,
+                "tweet_id": 1,
+                "created_at": "2019-07-31 06:44:41",
+                "updated_at": "2019-07-31 06:44:41"
+              },
+              {
+                "id": 3,
+                "user_id": 2,
+                "tweet_id": 1,
+                "created_at": "2019-07-31 06:59:41",
+                "updated_at": "2019-07-31 06:59:41"
+              }
+            ],
+            "replies": [
+              {
+                "id": 1,
+                "user_id": 2,
+                "tweet_id": 1,
+                "reply": "este e um tweet do tanda",
+                "created_at": "2019-07-31 06:59:31",
+                "updated_at": "2019-07-31 06:59:31"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id": 3,
+      "name": "Angelino Valeta",
+      "username": "valeta",
+      "email": "valeta@gmail.com",
+      "location": null,
+      "website_url": null,
+      "bio": null,
+      "created_at": "2019-07-31 07:00:11",
+      "updated_at": "2019-07-31 07:00:11",
+      "tweets": [
+        {
+          "id": 3,
+          "user_id": 3,
+          "tweet": "post do valeta",
+          "created_at": "2019-07-31 07:00:21",
+          "updated_at": "2019-07-31 07:00:21",
+          "user": {
+            "id": 3,
+            "name": "Angelino Valeta",
+            "username": "valeta",
+            "email": "valeta@gmail.com",
+            "location": null,
+            "website_url": null,
+            "bio": null,
+            "created_at": "2019-07-31 07:00:11",
+            "updated_at": "2019-07-31 07:00:11"
+          },
+          "favorites": [],
+          "replies": []
+        }
+      ],
+      "following": [],
+      "followers": [],
+      "favorites": []
+    }
+  },
+  {
+    "status": "success",
+    "data": {
+      "id": 2,
+      "name": "Humberto Fortes",
+      "username": "humberto",
+      "email": "humberto@gmail.com",
+      "location": null,
+      "website_url": null,
+      "bio": null,
+      "created_at": "2019-07-31 06:58:16",
+      "updated_at": "2019-07-31 06:58:16",
+      "tweets": [
+        {
+          "id": 2,
+          "user_id": 2,
+          "tweet": "Tweet form humberto",
+          "created_at": "2019-07-31 06:58:37",
+          "updated_at": "2019-07-31 06:58:37",
+          "user": {
+            "id": 2,
+            "name": "Humberto Fortes",
+            "username": "humberto",
+            "email": "humberto@gmail.com",
+            "location": null,
+            "website_url": null,
+            "bio": null,
+            "created_at": "2019-07-31 06:58:16",
+            "updated_at": "2019-07-31 06:58:16"
+          },
+          "favorites": [],
+          "replies": []
+        }
+      ],
+      "following": [],
+      "followers": [],
+      "favorites": [
+        {
+          "id": 3,
+          "user_id": 2,
+          "tweet_id": 1,
+          "created_at": "2019-07-31 06:59:41",
+          "updated_at": "2019-07-31 06:59:41",
+          "tweet": {
+            "id": 1,
+            "user_id": 1,
+            "tweet": "My frst twitter",
+            "created_at": "2019-07-31 06:44:38",
+            "updated_at": "2019-07-31 06:44:38",
+            "user": {
+              "id": 1,
+              "name": "jose tandavala",
+              "username": "tandavala",
+              "email": "jose.tandavala@gmail.com",
+              "location": "Benguela",
+              "website_url": null,
+              "bio": "I am a software developer",
+              "created_at": "2019-07-31 06:44:22",
+              "updated_at": "2019-07-31 06:45:15"
+            },
+            "favorites": [
+              {
+                "id": 1,
+                "user_id": 1,
+                "tweet_id": 1,
+                "created_at": "2019-07-31 06:44:41",
+                "updated_at": "2019-07-31 06:44:41"
+              },
+              {
+                "id": 3,
+                "user_id": 2,
+                "tweet_id": 1,
+                "created_at": "2019-07-31 06:59:41",
+                "updated_at": "2019-07-31 06:59:41"
+              }
+            ],
+            "replies": [
+              {
+                "id": 1,
+                "user_id": 2,
+                "tweet_id": 1,
+                "reply": "este e um tweet do tanda",
+                "created_at": "2019-07-31 06:59:31",
+                "updated_at": "2019-07-31 06:59:31"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,4 +1,4 @@
-var person = {
+/*var person = {
   name: "tandavala",
   age: 28,
   address: {
@@ -33,4 +33,23 @@ for (var i = 0; i < people.length; i++) {
   //console.log(people[i].name);
   output += "<li>" + people[i].name + "</li>";
   document.getElementById("fill").innerHTML = output;
-}
+} */
+
+let xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    //console.log(xhttp.responseText);
+    let response = JSON.parse(xhttp.responseText);
+    let output = "";
+    let output2 = "";
+
+    for (let i = 0; i < response.length; i++) {
+      console.log(response[i].data.name);
+      output += "<li>" + response[i].data.name + "</li>";
+      document.getElementById("fill").innerHTML = output;
+    }
+  }
+};
+
+xhttp.open("GET", "tandavala.json", true);
+xhttp.send();
